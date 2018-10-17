@@ -1,0 +1,22 @@
+{
+  "debug": false,
+  "remove_files": false,
+  "archival_days": 150,
+  "archival_folder_name": "archiver",
+  "log_file_name": "archiver.log",
+  "enable_disk_space_check": false,
+  "disk_space_check_percentage_limit": 40,
+  "disk_path": "/",
+  "folders":[
+    {
+      "path": "/Users/Downloads/LatestInventoryFiles",
+      "description":"Latest Inventory files",
+      "archive_name_prefix": "archive_inventory"
+    },
+    {
+      "path":"/Users/Downloads/archive",
+      "description":"Order files",
+      "archive_name_prefix": "archive_otf"
+    }
+  ]
+}
