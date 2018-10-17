@@ -13,7 +13,7 @@ Script can be configured, using the archiver_config.json file. Some of the impor
 * __enable_disk_space_check__ - _boolean_ - flag enables archiving only if used disk is above a limit set in configuration  __disk_space_check_percentage_limit__
 * __disk_space_check_percentage_limit__ -  int - limit of used space when crossed, files older then __archival_days__ will be archived
 * __disk_path__ - string - path to find out the disk usage
-* __folders__ - List of following properties that enables archiving in multiple folders
+* __folders__ - List of folder with following properties that enables archiving multiple folders
   * __path__ - string - folder path to check files for archiving
   * __description__ - string - just the description of the folder used for displaying information
   * __archive_name_prefix__ - _string_ - Archive file name prefix
